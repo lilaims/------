@@ -11,3 +11,22 @@ The device you are watching on.
 The number of searches and what is searched for.
 Screen shots when the show was paused.
 When you left the show.
+
+exploration - exploitation
+Exploitation
+The exploration-exploitation dilemma, also known as the explore-exploit tradeoff, is a fundamental concept in decision-making that arises in many domains¹. It is depicted as the balancing act between two opposing strategies¹:
+
+1. **Exploration**: This involves searching for new information, options, or opportunities. It involves taking risks and trying out new things to gain knowledge and experience³. In other words, exploration is the pursuit of what might come to be known, involving search, variation, risk-taking, experimentation, play, flexibility, and innovation⁴.
+
+2. **Exploitation**: This involves choosing the best option based on current knowledge of the system (which may be incomplete or misleading)¹. It refers to the act of utilizing existing resources, knowledge, or skills to maximize gains or benefits³. Exploitation is the refinement and implementation of what is already known, involving choice, selection, efficiency, standardization, reliability, and control⁴.
+
+Finding the optimal balance between these two strategies is a crucial challenge in many decision-making problems whose goal is to maximize long-term benefits¹. In the context of machine learning, the exploration-exploitation tradeoff is fundamental in reinforcement learning¹. The agent must decide whether to exploit the current best-known policy or explore new policies to improve its performance¹.
+
+Various algorithms have been developed to address this challenge, such as epsilon-greedy, Thompson sampling, and the upper confidence bound¹. These methods aim to find a strategy with a good trade-off between these two possible behaviors². The goal is to make decisions that lead to the best long-term outcomes².
+
+Source: Conversation with Bing, 19/4/2024
+(1) Exploration-exploitation dilemma - Wikipedia. https://en.wikipedia.org/wiki/Exploration-exploitation_dilemma.
+(2) Exploration vs Exploitation: Meaning And Differences. https://thecontentauthority.com/blog/exploration-vs-exploitation.
+(3) Exploration and Exploitation | SpringerLink. https://link.springer.com/referenceworkentry/10.1057/978-1-137-00772-8_388.
+(4) The exploration-exploitation trade-off: intuitions and strategies. https://towardsdatascience.com/the-exploration-exploitation-dilemma-f5622fbe1e82.
+(5) undefined. http://incompleteideas.net/book/the-book-2nd.html.
